@@ -119,7 +119,7 @@
   <section class="bottom">
     <footer id="footer" class="footer">
 
-      <p>Patient-Centered Information Exchange system | The Trojan Squad</p><br>
+      <p>Bill My School</p><br>
       <a href="#top-intro" style="text-decoration:none; color : white">Back to top</a>
 
     </footer>
