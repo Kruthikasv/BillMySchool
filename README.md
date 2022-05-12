@@ -1,2 +1,0 @@
-# Patient_centered_information_exchange_system
-This project augments traditional approaches to health information management like access to medical reports and related data at one place with specific functions designed to support patient participation in health care decision making and treatment activities. It also enables various hospitals in the network to access a patient’s medical information during emergencies.
