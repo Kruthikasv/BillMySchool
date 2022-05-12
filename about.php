@@ -1,114 +1,25 @@
 <!DOCTYPE html>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css\master.css">
 <style>
   body {
-    background: linear-gradient(to right, #000, #000069);
+    background:#c3c6a0;;
     padding-left: 200px;
     padding-right: 200px;
-    font-family: "Nunito Sans", Arial, sans-serif;
-
-  }
-
-  /* ul{
-    margin:-10px 60px 15px 10px;
-    padding-top: 10px;
-}
-li{
-float:right;
-padding:18px;
-
-
-list-style: none;
-
-
-}
-li a{
-    font-size:14.5px;
-    color: white;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: none;
-} */
-  .active {
-    color: #20c997;
-  }
-
-  /* .logo-onClick{
-    /* float: left; 
   
-} */
-
-  .topnav-nav {
-    overflow: hidden;
-
-  }
-
-  .logo {
-    float: left;
-  }
-
-  .menu a {
-    float: right;
-    display: flex;
-
-    text-align: center;
-    margin: 22px 20px;
-    text-decoration: none;
-
-    font-size: 16px;
-    color: white;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    text-decoration: none;
-  }
-
-  .topnav-nav a:hover {
-    border-bottom: 2px solid #20c997;
-    color: #20c997;
-
-  }
-
-  .topnav-nav a.active {
-
-    border-bottom: 2px solid #20c997;
-    color: #20c997;
-  }
-
-  .topnav-nav .icon {
-    display: none;
-  }
-
-  @media screen and (max-width: 600px) {
-    .topnav-nav a:not(:first-child) {
-      display: none;
-    }
-
-    .topnav-nav a.icon {
-      float: right;
-      display: block;
-    }
-  }
-
-
-  @media screen and (max-width: 600px) {
-    .topnav-nav.responsive {
-      position: relative;
-    }
-
-    .topnav-nav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-
-    .topnav-nav.responsive a {
-      float: none;
-      display: block;
-      text-align: right;
-    }
   }
 
   .about-bms-top {
     position: relative;
+    margin:-0px;
   }
 
   .about-bms-top-text {
@@ -118,19 +29,19 @@ li a{
 
   #bmscom {
     font-size: 25px;
-    color: #31de79;
+    color: darkred;
   }
 
   #bms {
     font-size: 34px;
-    color: #31de79;
+    color:darkred;
 
   }
 
   .subheading {
 
     font-size: 16px;
-    color: #9ff669;
+    color: black;
     margin-top: 15px;
     line-height: 30px;
     word-spacing: 3px;
@@ -139,7 +50,7 @@ li a{
 
   .bms-content {
     font-size: 14.5px;
-    color: #999999;
+    color: black;
     line-height: 27px;
     word-spacing: 2.5px;
     letter-spacing: 1px;
@@ -148,14 +59,14 @@ li a{
   }
 
   .school-counter {
-    background: linear-gradient(135deg, #9ff669 0%, #31de79 100%);
+    background:brown;
     width: 28%;
     padding: 20px 0px 20px 115px;
     margin-left: 30%;
     position: absolute;
     top: 76%;
     left: 5%;
-    color: black;
+    color:white;
     margin-bottom: 10px;
     font-weight: 500;
     display: block;
@@ -245,44 +156,36 @@ li a{
 
 <head>
   <title>About-BillMySchool</title>
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+<nav class="navbar navbar-expand-lg navbar-dark">
+<strong><a class="navbar-brand" href="" style="text-shadow: 1px 1px black; color:rgb(40, 21, 8);">Bill my $chool</a></strong>
 
-  <!-- <ul>
-            <li><a href="#signin">Sign In</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about" class="active">About</a></li>
-            <li><a href="#home">Home</a></li>
-           
-        </ul> -->
-  <div class="topnav">
-    <div class="topnav-nav" id="myTopnav">
-      <span class="menu"><a href="#signin">Sign In</a>
-        <a href="#contact">Contact</a>
-        <a href="#about" class="active">About</a>
-        <a href="#home">Home</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </span>
-      <span class="logo"><a class="navbar-brand" href="#">
-          <img src="images/bmsLogo.png" alt="logo" style="width:153px;height: 93px;">
-        </a></span>
-    </div>
+<div class="topnav">
 
 
-  </div>
+        <div class=navbar-nav ml-auto  id="myTopnav">
+
+          
+            <span class="menu" class="nav-item">
+              
+              <a href="index.php" class="nav-item" style="padding:10px 8px;">Home</a>
+            
+            <a href="#contact" class="nav-item" style="padding:10px 8px;">Contact</a>
+            <a href="login.php"  class="nav-item" style="padding:10px 8px; text-decoration:none">Login/Sign-Up</a>
+            </a>
+           </span>
+</nav>
   <!-- <a href="#index.html" class="logo-onClick">
             <img id="logoImage" src="images/bmsLogo.png" alt="BMS logo" width="153px" height="93px">
         </a> -->
 
 
-  <div class="about-bms-top">
+  <div class="row" style="position: relative; float:left;">
     <img src="images/about1.jpg" alt="meeting" width="450px" height="740px">
-    <div class="about-bms-top-text">
+    <div class="about-bms-top-text" style="margin-left:10px;">
       <span id="bms">BILL MY SCHOOL .</span><span id=bmscom>COM</span>
       <div class="subheading">
         <span>IT'S THE BEST WAY TO MANAGE YOUR ENTIRE SCHOOL FEES BILLING SYSTEM. IT'S JUST FASTER AND EASIER.</span>
@@ -304,14 +207,8 @@ li a{
       SCHOOLS USE OUR PRODUCT
     </div>
   </div>
-  <div class="second-sec">
-    <p>OUR MODULES</p>
-    <p id="second-subtitle">Bill My School is a simple and efficient way to manage complete school fees, manage attendance and maintain exam records with customizations suited to your school.</p>
-    <img src="images/fee.png" alt="">
-    <img src="images/attendance.png" alt="">
-    <img src="images/test.png" alt="">
-  </div>
-
+ 
+  
 
 
   <!-- </ul> -->
