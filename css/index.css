@@ -1,0 +1,117 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(to right, #000 0% , #000069 100%) ;
+}
+:root {
+  --green: #28a745;
+  --white: #ffffff;
+  --lightGreen: #00FF00;
+  --lemon: #FFFF66;
+}
+.top-nav {
+  padding: 1.2% 12%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to right, #000 0% , #000069 100%);
+}
+
+.top-nav ul li{
+  padding: 0 10px;
+}
+
+.top-nav ul li a{
+  text-decoration: none;
+  color: var(--white);
+  display: inline-block;
+}
+
+.top-nav ul li img {
+  width : 170px;
+  height : 60px;
+  margin-right: 550px;
+}
+
+.top-nav ul li a:hover {
+  border-bottom: 3px solid var(--green);
+  padding-bottom: 5px;
+}
+
+.top-container {
+  height: 400px;
+  padding: 12% 7% 7%;
+  text-align: center;
+  color: var(--green);
+  background: var(--white);
+}
+
+.mid-container {
+  height: 1020px;
+}
+
+.mid-container .card-view{
+  padding: 5% 14%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.mid-container .card-view .card {
+  width: 15rem;
+  height: 18rem;
+  background: linear-gradient(to bottom, #d4f5ab 0%,#a7ef49 50%,#b1f557 100%);
+  z-index: -1;
+}
+
+
+.after-card-view {
+  padding: 5% 14%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.after-card-view .map {
+  width: 500px;
+  height: 500px;
+  background: var(--white);
+}
+
+.after-card-view .contact-form {
+  width: 500px;
+}
+
+.after-card-view .contact-form button {
+  padding: 2% 8%;
+  border-radius: 50px;
+  border: 1px solid var(--lightGreen);
+  color: var(--white);
+  background-image: linear-gradient(to right, #000 0% , #000069 100%) ;
+}
+
+.after-card-view .contact-form button:hover {
+  color: #000069;
+  border: 1px solid #000069;
+  background-image: linear-gradient(to right, var(--green) 0% , var(--lightGreen) 100%);
+}
+
+footer {
+  height: 300px;
+  padding-top: 7%;
+  text-align: center;
+  color: #c0c0c0;
+  background: #000;
+}
+
+footer .icons {
+  padding: 10px;
+}
+
+footer .icons i {
+  padding: 5px 10px;
+  font-size: 40px;
+}

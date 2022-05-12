@@ -35,7 +35,7 @@
               <a class="nav-link" href="#heading" style="text-shadow: 1px 1px #c0c0c0;color:rgb(150, 79, 29); ">Our Modules </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.php" style="text-shadow: 1px 1px #c0c0c0;color:rgb(150, 79, 29);" target="_blank">Contact </a>
+              <a class="nav-link" href="contact.php" style="text-shadow: 1px 1px #c0c0c0;color:rgb(150, 79, 29);">Contact </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="login.php" style="text-shadow: 1px 1px #c0c0c0;color:rgb(150, 79, 29); ">Login/Sign-up </a>
