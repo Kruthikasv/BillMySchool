@@ -179,21 +179,21 @@
 
 
 
-  <button class="tablink" onclick="openPage('Pateint', this, 'blue')" id="defaultOpen">Admin</button>
-  <button class="tablink" onclick="openPage('Doctor', this, 'blue')">School</button>
-  <button class="tablink" onclick="openPage('Hospital', this, 'blue')">Parent</button>
+  <button class="tablink" onclick="openPage('Pateint', this, '#6b3b0b')" id="defaultOpen">Admin</button>
+  <button class="tablink" onclick="openPage('Doctor', this, '#6b3b0b')">School</button>
+  <button class="tablink" onclick="openPage('Hospital', this, '#6b3b0b')">Parent</button>
 
 
   <div id="Pateint" class="tabcontent">
     <div class="container">
-      <form action="validate_patient.php" method="post">
+      <form>
         <h2 style="text-align:center">Admin Login</h2>
         <div class="imgcontainer">
           <img src="images\login-headshot.png" alt="Avatar" class="avatar">
         </div>
         <input type="text" name="username" placeholder="Email id"><br><br>
         <input type="password" name="pwd" placeholder="Password"><br><br>
-        <button type="submit" name="submit" class="submit">Submit</button>
+        <button type="submit" name="submit" class="submit" onclick="alert(' You have signed in successfully!')">Submit</button>
 
         <br><br>
 
@@ -203,14 +203,15 @@
   </div>
   <div id="Doctor" class="tabcontent">
     <div class="container">
-      <form action="validate_doctor.php" method="post">
+      <!-- <form action="alert(" You have signed in successfully!");" method="post"> -->
+      <form>
         <h2 style="text-align:center">School Login </h2>
         <div class="imgcontainer">
           <img src="images\login-headshot.png" alt="Avatar" class="avatar">
         </div>
         <input type="text" name="username" placeholder="Email id"><br><br>
         <input type="password" name="pwd" placeholder="Password"><br><br>
-        <button type="submit" name="submit" class="submit">Submit</button>
+        <button type="submit" name="submit" class="submit" onclick="alert('You have signed in successfully!')">Submit</button>
 
         <br><br>
         <div class="signup"> Not a registered user? <a href="signup_school.php">Click here</a> to signup.<br><br>
@@ -220,14 +221,14 @@
   </div>
   <div id="Hospital" class="tabcontent">
     <div class="container">
-      <form action="validate_hosp.php" method="post">
+      <form>
         <h2 style="text-align:center">Parent Login </h2>
         <div class="imgcontainer">
           <img src="images\login-headshot.png" alt="Avatar" class="avatar">
         </div>
         <input type="text" name="username" placeholder="Email id"><br><br>
         <input type="password" name="pwd" placeholder="Password"><br><br>
-        <button type="submit" name="submit" class="submit">Submit</button>
+        <button type="submit" name="submit" class="submit" onclick="alert(' You have signed in successfully!')">Submit</button>
 
         <br><br>
         <div class="signup"> Not a registered user? <a href="signup_parent.php">Click here</a> to signup.<br><br>
