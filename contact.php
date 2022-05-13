@@ -35,28 +35,8 @@
     <h1>CONTACT US</h1>
     <h3>Give us your Details, We will come to your Organization to give a live demo on billmyschool.com</h3>
   </section>
-  <section class="mid-container">
-    <div class="card-view">
-      <div class="card">
-      </div>
-      <div class="card">
 
-      </div>
-      <div class="card">
-
-      </div>
-      <div class="card">
-
-      </div>
-    </div>
-
-    <section class="after-card-view">
-      <section class="map">
-
-      </section>
-
-
-      <section class="contact-form">
+  <section class="contact-form">
         <form>
           <div class="form-group">
             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name">
@@ -72,10 +52,7 @@
           </div>
           <button type="submit" name="button">Send Message</button>
         </form>
-      </section>
     </section>
-
-  </section>
 
   <footer>
     <p>Copyright ©2021 All rights reserved | This template is made with by Rapsol Technologies Private Limited</p>

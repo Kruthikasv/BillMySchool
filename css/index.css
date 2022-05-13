@@ -51,56 +51,28 @@ body {
   background: var(--white);
 }
 
-.mid-container {
-  height: 1020px;
-  background: #c3c6a0 ;
+.contact-form {
+  width: 700px;
+  margin: auto;
 }
 
-.mid-container .card-view{
-  padding: 5% 14%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.mid-container .card-view .card {
-  width: 15rem;
-  height: 18rem;
-  background: #fff ;
-  border: 1px solid #111;
-}
-
-.after-card-view {
-  padding: 5% 14%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.after-card-view .map {
-  width: 500px;
-  height: 500px;
-  background: var(--white);
-  border: 1px solid #111;
-}
-
-.after-card-view .contact-form {
-  width: 500px;
-}
-
-.after-card-view .contact-form button {
-  padding: 2% 8%;
+.contact-form button {
+  padding: 2%;
   border-radius: 50px;
   border: 1px solid var(--lightGreen);
-  background: #c3c6a0;
+  background: #111;
   color: var(--white);
+  width: 200px;
 }
 
-.after-card-view .contact-form button:hover {
+.contact-form button:hover {
   color: #000069;
   border: 1px solid #c3c6a0;
 }
 
 footer {
   height: 300px;
+  margin-top: 100px;
   padding-top: 7%;
   text-align: center;
   color: #000069;
