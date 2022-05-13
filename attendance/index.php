@@ -18,20 +18,21 @@
 	}
 ?>
 <div class='alert alert-danger' style="display: none;"><strong>Error !</strong> Student Roll Missing !</div>
-		<div class="card">
+		<div class="card" style="background-color:#6b3b0b;">
 			<div class="card-header">
 				<h2>
 					<a class="btn btn-success" href="add.php">Add Student</a>
 					<a class="btn btn-info float-right" href="date_view.php">View All</a>
+					<a class="btn btn-info float-right" href="../index.php" style="margin-right:10px">Back</a>
 				</h2>
 			</div>
 
-			<div class="card-body">
-				<div class="card bg-light text-center mb-3">
-					<h4 class="m-0 py-3"><strong>Date</strong>: <?php echo $cur_date; ?></h4>
+			<div class="card-body" style="background-color:#6b3b0b">
+				<div class="card bg-light text-center mb-3" >
+					<h4 class="m-0 py-3" style="background-color:bisque;"><strong>Date</strong>: <?php echo $cur_date; ?></h4>
 				</div>
 				<form action="" method="post">
-					<table class="table table-striped">
+					<table class="table table-striped" style="background-color:bisque; font-weight:800">
 						<tr>
 							<th width="25%">S/L</th>
 							<th width="25%">Student Name</th>
@@ -66,4 +67,3 @@
 			</div>
 		</div>
 	</div>
-<?php include "inc/footer.php"; ?>

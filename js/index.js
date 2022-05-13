@@ -5,6 +5,6 @@ window.onscroll = function() {
     navbar.style.color="color: #000069";
   }
   else {
-    navbar.style="background-image: linear-gradient(to right, #000 0% , #000069 100%)";
+    navbar.style="background-image: #c3c6a0;";
   }
 }

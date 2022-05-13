@@ -46,9 +46,9 @@
 
       <div class="row" style="position: relative; float:left;padding-top:40px; padding-left:30px">
         <div class="col-lg-5 col-md-6 col-sm-6">
-          <h5 class="main-heading" style="color:#997">WELCOME TO BILLMYSCHOOL.COM</h5>
-          <h3 class="main-heading" style="color:#997"><strong>Small Details Make A Big Impression</strong></h3>
-          <h5 class="main-heading" style="color:#997">It's the best way to manage your entire institutional needs online - Academic, Operational, Finance, Communications and much more.
+          <h5 class="main-heading" style="color:#6b3b0b;">WELCOME TO BILLMYSCHOOL.COM</h5>
+          <h3 class="main-heading" style="color:#6b3b0b;"><strong>Small Details Make A Big Impression</strong></h3>
+          <h5 class="main-heading" style="color:#6b3b0b;">It's the best way to manage your entire institutional needs online - Academic, Operational, Finance, Communications and much more.
             It's just faster and easier.
             </h2>
         </div>
