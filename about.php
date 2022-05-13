@@ -12,8 +12,8 @@
 <style>
   body {
     background:#c3c6a0;;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 55px;
+    padding-right: 150px;
   
   }
 
@@ -24,7 +24,8 @@
 
   .about-bms-top-text {
     float: right;
-    width: 55%;
+    width: 65%;
+    padding-left: 25px;
   }
 
   #bmscom {
@@ -49,7 +50,7 @@
   }
 
   .bms-content {
-    font-size: 14.5px;
+    font-size:18px;
     color: black;
     line-height: 27px;
     word-spacing: 2.5px;
@@ -60,9 +61,9 @@
 
   .school-counter {
     background:brown;
-    width: 28%;
+    width: 35%;
     padding: 20px 0px 20px 115px;
-    margin-left: 30%;
+    margin-left: 24.5%;
     position: absolute;
     top: 76%;
     left: 5%;
@@ -169,11 +170,11 @@
         <div class=navbar-nav ml-auto  id="myTopnav">
 
           
-            <span class="menu" class="nav-item">
+            <span class="menu" class="nav-item" >
               
               <a href="index.php" class="nav-item" style="padding:10px 8px;">Home</a>
             
-            <a href="#contact" class="nav-item" style="padding:10px 8px;">Contact</a>
+            <a href="contact.php" class="nav-item" style="padding:10px 8px;">Contact</a>
             <a href="login.php"  class="nav-item" style="padding:10px 8px; text-decoration:none">Login/Sign-Up</a>
             </a>
            </span>
