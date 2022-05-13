@@ -56,7 +56,7 @@
       </div>
   </section>
 
-  <section id="about" class="about">
+  <!-- <section id="about" class="about">
     <h2 class="text">ABOUT US</h2>
     <br><br><br><br>
     <p>This is a <strong>patient centered information exchange system</strong>.<br>
@@ -69,7 +69,7 @@
       The hospital administration can view , access and update patient records by adding/removing reports on latest developments in patient’s health as suggested by the doctor.
       The progress in health of the patients will be represented in the form of graphs.
     </p>
-  </section>
+  </section> -->
 
   <section id="mid" class="midPage">
     <h2 class="heading text" id="heading">OUR MODULES</h2><br><br><br>
@@ -94,7 +94,7 @@
             <p class="card-text"></p>
           </div>
           <div class="card-footer" class="submit">
-            <a href="signup_doc.php" class="btn btn-light btn-lg">Click here</a>
+            <a href="attendance/index.php" class="btn btn-light btn-lg">Click here</a>
           </div>
         </div>
 

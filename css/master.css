@@ -66,14 +66,15 @@ h1, h2 {
   text-align: center;
 }
 
-.about p {
+/* .about p {
   font-size: 22px;
   text-align: center;
-}
+} */
 
 .midPage {
   margin: 0 10%;
   padding: 8% 0;
+  background-color: rgb(170, 164, 154);
 }
 
 .midPage .heading {
