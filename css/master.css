@@ -16,6 +16,8 @@ h1, h2 {
   background-size:cover;
   color: #fff;
   padding-bottom: 200px;
+  height:800px;
+
 }
 
 .top_image {
@@ -72,8 +74,9 @@ h1, h2 {
 } */
 
 .midPage {
-  margin: 0 10%;
+  margin: 0 ;
   padding: 8% 0;
+
   background-color: rgb(170, 164, 154);
 }
 
@@ -88,7 +91,7 @@ h1, h2 {
 
 .footer {
   text-align: center;
-  margin: 3%;
+
   color: white;
 }
 
@@ -102,7 +105,7 @@ h1, h2 {
 
 .bottom {
   background-color: #1791d6;
-  margin-top: 5%;
+
   padding: 3% 5%;
 }
 

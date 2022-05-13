@@ -12,6 +12,6 @@
 <body>
 	<div class="container mb-3">
 		<div class="card card-body bg-light text-center">
-			<h2>Employee/Student Attendance(Roll Call) System PHP</h2>
+			<h2>Student Attendance(Roll Call)</h2>
 		</div>
 	</div>
