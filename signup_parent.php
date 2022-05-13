@@ -10,7 +10,7 @@
   body {
     margin: 0;
     padding: 0;
-
+    background-color: bisque;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -31,7 +31,7 @@
   .container {
     width: 30%;
     height: 575px;
-    background: rgb(79, 169, 241);
+    background-color: #6b3b0b;
     margin: 0 auto;
     border: 2px solid #fff;
     box-shadow: 0 20px 40px rgba(0, 0, 0, .5);
@@ -62,18 +62,20 @@
   .formBox input[type="text"],
   .formBox input[type="Password"],
   .formBox input[type="tel"],
-  formBox input[type="date"] {
+  .formBox input[type="date"] {
     border: none;
     border-bottom: 2px solid white;
     outline: none;
     height: 20px;
     border-radius: 5px;
+    background-color: bisque;
   }
 
   .formBox input[type="text"]:focus,
   .formBox input[type="Password"]:focus,
   .formBox input[type="tel"]:focus {
     border-bottom: 2px solid rgb(3, 5, 10);
+    background-color: bisque;
   }
 
   .formBox input[type="checkbox"] {
@@ -118,26 +120,26 @@
   <div class="container">
     <div class="formBox">
       <form method="post" action="">
-        <label>First Name</label>
+        <label style="color:white;">First Name</label>
         <input type="text" name="fname" placeholder="Type your First name" required>
-        <label>Last Name</label>
+        <label style="color:white;">Last Name</label>
         <input type="text" name="lname" placeholder="Type your Last name" required>
-        <label>Ward's name</label>
+        <label style="color:white;">Ward's name</label>
         <input type="text" id="student" name="student" placeholder="Type your ward's name">
-        <label>Ward's class</label>
-        <input type="number" name="class" placeholder="Type in which standard your ward is studying in" required>
-        <label>E-mail Id</label>
+        <label style="color:white;">Ward's class</label>
+        <input type="number" name="class" style="background-color: bisque;" placeholder="Type in which standard your ward is studying in" required>
+        <label style="color:white;">E-mail Id</label>
         <input type="text" name="email" placeholder="Type your email id here" required>
-        <label>Contact Number</label>
+        <label style="color:white;">Contact Number</label>
         <input type="tel" name="contact" placeholder="Enter your contact number" required>
-        <label>Address</label><label for="Address"></label>
-        <textarea id="Address" name="address" rows="2" cols="42" required></textarea>
-        <label>Password</label>
+        <label style="color:white;">Address</label><label for="Address"></label>
+        <textarea id="Address" name="address" rows="2" cols="42" style="background-color: bisque;" required></textarea>
+        <label style="color:white;">Password</label>
         <input type="Password" id="inputPassword4" name="password" placeholder="Enter a password of 8 characters" required>
-        <input type="checkbox" class="form-check-input" onclick="showPassword()">Show passsword
+        <input type="checkbox" class="form-check-input" onclick="showPassword()"> <label style="color:white;">Show passsword</label>
         <div class="remember_me">
           <input type="checkbox" id="remember_me" name="remember_me" value="checked">
-          <label for="remember_me"> Remember me</label><br>
+          <label for="remember_me" style="color:white;"> Remember me</label><br>
         </div>
         <div class="signupbutton">
           <button type="submit" name="submitpost" class="submit">Sign Up</button>

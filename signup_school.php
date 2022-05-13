@@ -10,7 +10,7 @@
     body {
         margin: 0;
         padding: 0;
-
+        background-color: bisque;
         background-size: cover;
         font-family: Arial, Helvetica, sans-serif;
     }
@@ -31,7 +31,7 @@
     .container {
         width: 30%;
         height: 525px;
-        background: rgb(79, 169, 241);
+        background-color: #6b3b0b;
         margin: 0 auto;
         border: 2px solid #fff;
         box-shadow: 0 20px 40px rgba(0, 0, 0, .5);
@@ -67,12 +67,14 @@
         outline: none;
         height: 20px;
         border-radius: 5px;
+        background-color: bisque;
     }
 
     .formBox input[type="text"]:focus,
     .formBox input[type="Password"]:focus,
     .formBox input[type="tel"]:focus {
         border-bottom: 2px solid rgb(3, 5, 10);
+        background-color: bisque;
     }
 
     .formBox input[type="checkbox"] {
@@ -116,22 +118,22 @@
     <div class="container">
         <div class="formBox">
             <form method="post" action="">
-                <label>Name</label>
+                <label style="color:white;">Name</label>
                 <input type="text" name="Name" placeholder="Type your name" required>
-                <label>Branch</label>
+                <label style="color:white;">Branch</label>
                 <input type="text" name="branch" placeholder="Type your branch name" required>
-                <label>E-mail Id</label>
+                <label style="color:white;">E-mail Id</label>
                 <input type="text" name="Emailid" placeholder="Type your official email id here" required>
-                <label>Contact Number</label>
+                <label style="color:white;">Contact Number</label>
                 <input type="tel" name="PhNo" placeholder="Enter your contact number" required>
-                <label>Address</label><label for="Address"></label>
-                <textarea id="Address" name="address" rows="4" cols="42" required></textarea>
-                <label>Password</label>
+                <label style="color:white;">Address</label><label for="Address"></label>
+                <textarea id="Address" name="address" rows="4" cols="42" style="background-color: bisque;" required></textarea>
+                <label style="color:white;">Password</label>
                 <input type="Password" id="inputPassword4" name="pswd" placeholder="Enter a password of 8 characters" required>
-                <input type="checkbox" class="form-check-input" onclick="showPassword()">Show passsword
+                <input type="checkbox" class="form-check-input" onclick="showPassword()"><label style="color:white;">Show passsword</label>
                 <div class="remember_me">
                     <input type="checkbox" id="remember_me" name="remember_me" value="checked">
-                    <label for="remember_me"> Remember me</label><br>
+                    <label for="remember_me" style="color:white;"> Remember me</label><br>
                 </div>
                 <div class="signupbutton">
                     <button type="submit" name="submitpost" class="submit">Sign Up</button>

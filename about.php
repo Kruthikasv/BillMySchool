@@ -1,31 +1,31 @@
 <!DOCTYPE html>
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="css\master.css">
+<link rel="stylesheet" href="css\master.css">
 <style>
   body {
-    background:#c3c6a0;;
-    padding-left: 55px;
-    padding-right: 150px;
-  
+    background: #c3c6a0;
+    padding-left: 100px;
+    padding-right: 100px;
+
   }
 
   .about-bms-top {
     position: relative;
-    margin:-0px;
+    margin: -0px;
   }
 
   .about-bms-top-text {
     float: right;
-    width: 65%;
-    padding-left: 25px;
+    width: 55%;
+    /* padding-left: 25px; */
   }
 
   #bmscom {
@@ -35,7 +35,7 @@
 
   #bms {
     font-size: 34px;
-    color:darkred;
+    color: darkred;
 
   }
 
@@ -50,7 +50,7 @@
   }
 
   .bms-content {
-    font-size:18px;
+    font-size: 14.5px;
     color: black;
     line-height: 27px;
     word-spacing: 2.5px;
@@ -60,14 +60,14 @@
   }
 
   .school-counter {
-    background:brown;
+    background: brown;
     width: 35%;
     padding: 20px 0px 20px 115px;
     margin-left: 24.5%;
     position: absolute;
     top: 76%;
     left: 5%;
-    color:white;
+    color: white;
     margin-bottom: 10px;
     font-weight: 500;
     display: block;
@@ -161,24 +161,24 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark">
-<strong><a class="navbar-brand" href="" style="text-shadow: 1px 1px black; color:rgb(40, 21, 8);">Bill my $chool</a></strong>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <strong><a class="navbar-brand" href="" style="text-shadow: 1px 1px black; color:rgb(40, 21, 8);">Bill my $chool</a></strong>
 
-<div class="topnav">
+    <div class="topnav">
 
 
-        <div class=navbar-nav ml-auto  id="myTopnav">
+      <div class=navbar-nav ml-auto id="myTopnav">
 
-          
-            <span class="menu" class="nav-item" >
-              
-              <a href="index.php" class="nav-item" style="padding:10px 8px;">Home</a>
-            
-            <a href="contact.php" class="nav-item" style="padding:10px 8px;">Contact</a>
-            <a href="login.php"  class="nav-item" style="padding:10px 8px; text-decoration:none">Login/Sign-Up</a>
-            </a>
-           </span>
-</nav>
+
+        <span class="menu" class="nav-item">
+
+          <a href="index.php" class="nav-item" style="padding:10px 8px;">Home</a>
+
+          <a href="contact.php" class="nav-item" style="padding:10px 8px;">Contact</a>
+          <a href="login.php" class="nav-item" style="padding:10px 8px; text-decoration:none">Login/Sign-Up</a>
+          </a>
+        </span>
+  </nav>
   <!-- <a href="#index.html" class="logo-onClick">
             <img id="logoImage" src="images/bmsLogo.png" alt="BMS logo" width="153px" height="93px">
         </a> -->
@@ -208,8 +208,8 @@
       SCHOOLS USE OUR PRODUCT
     </div>
   </div>
- 
-  
+
+
 
 
   <!-- </ul> -->
