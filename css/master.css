@@ -64,11 +64,6 @@ h1, h2 {
   text-align: center;
 }
 
-/* .about p {
-  font-size: 22px;
-  text-align: center;
-} */
-
 .midPage {
   margin: 0 ;
   padding: 8% 0;
@@ -99,7 +94,7 @@ h1, h2 {
 }
 
 .bottom {
-  background-color: #1791d6;
+  background-color: #6b3b0b;
 
   padding: 3% 5%;
 }
