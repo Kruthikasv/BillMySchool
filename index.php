@@ -119,7 +119,9 @@
   <section class="bottom">
     <footer id="footer" class="footer">
 
-      <p>Patient-Centered Information Exchange system | The Trojan Squad</p><br>
+      <strong>
+        <p>Bill My School | Internship at Rapsol Technologies Private Limited</p>
+      </strong><br>
       <a href="#top-intro" style="text-decoration:none; color : white">Back to top</a>
 
     </footer>
