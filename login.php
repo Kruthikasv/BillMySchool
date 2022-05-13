@@ -11,6 +11,7 @@
       font-family: Arial, Helvetica, sans-serif;
       height: 100%;
       margin: 0;
+      background-color: bisque;
     }
 
     * {
@@ -22,7 +23,7 @@
 
       width: 30%;
       height: 585px;
-      background: rgb(79, 169, 241);
+      background-color: #6b3b0b;
       margin: 0 auto;
       border: 2px solid #fff;
       box-shadow: 0 20px 40px rgba(0, 0, 0, .5);
@@ -156,15 +157,15 @@
     }
 
     #Patient {
-      background-color: white;
+      background-color: bisque;
     }
 
     #Doctor {
-      background-color: white;
+      background-color: bisque;
     }
 
     #Hospital {
-      background-color: white;
+      background-color: bisque;
     }
   </style>
 

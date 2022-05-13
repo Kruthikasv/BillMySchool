@@ -1,28 +1,33 @@
-<?php 
-	$filepath = realpath(dirname(__FILE__));
-	include_once ($filepath.'/../lib/Database.php');
-	include_once ($filepath.'/../helpers/Format.php');
+<?php
+$filepath = realpath(dirname(__FILE__));
+include_once($filepath . '/../lib/Database.php');
+include_once($filepath . '/../helpers/Format.php');
 ?>
 <?php
-/**
+/*
  * Student Class
  */
-class Student{
+
+class Student
+{
 	private $db;
 	private $fm;
-	
-	public function __construct(){
+
+	public function __construct()
+	{
 		$this->db = new Database();
 		$this->fm = new Format();
 	}
 
-	public function getStudents(){
+	public function getStudents()
+	{
 		$query = "SELECT * FROM tbl_student";
 		$result = $this->db->select($query);
 		return $result;
 	}
 
-	public function insertStudent($name, $roll){
+	public function insertStudent($name, $roll)
+	{
 		$name = $this->fm->validation($name);
 		$roll = $this->fm->validation($roll);
 
@@ -49,7 +54,8 @@ class Student{
 		}
 	}
 
-	public function insertAttendance($attend = array()){
+	public function insertAttendance($attend = array())
+	{
 		$query = "SELECT DISTINCT att_time FROM tbl_attendance";
 		$getdata = $this->db->select($query);
 		while ($result = $getdata->fetch_assoc()) {
@@ -80,13 +86,15 @@ class Student{
 		}
 	}
 
-	public function getDateList(){
+	public function getDateList()
+	{
 		$query = "SELECT DISTINCT att_time FROM tbl_attendance";
 		$result = $this->db->select($query);
 		return $result;
 	}
 
-	public function getAllData($dt){
+	public function getAllData($dt)
+	{
 		$date = $this->fm->validation($dt);
 		$date = mysqli_real_escape_string($this->db->link, $date);
 
@@ -99,17 +107,18 @@ class Student{
 		return $result;
 	}
 
-	public function updateAttendance($dt, $attend){
+	public function updateAttendance($dt, $attend)
+	{
 		foreach ($attend as $atn_key => $atn_value) {
 			if ($atn_value == "present") {
 				$query = "UPDATE tbl_attendance
 						SET attend = 'present'
-						WHERE roll = '".$atn_key."' AND att_time = '".$dt."'";
+						WHERE roll = '" . $atn_key . "' AND att_time = '" . $dt . "'";
 				$data_update = $this->db->update($query);
 			} elseif ($atn_value == "absent") {
 				$query = "UPDATE tbl_attendance
 						SET attend = 'absent'
-						WHERE roll = '".$atn_key."' AND att_time = '".$dt."'";
+						WHERE roll = '" . $atn_key . "' AND att_time = '" . $dt . "'";
 				$data_update = $this->db->update($query);
 			}
 		}
@@ -122,5 +131,4 @@ class Student{
 			return $msg;
 		}
 	}
-
 }
