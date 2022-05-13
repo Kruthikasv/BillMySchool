@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/index.css">
-  <link rel="icon" href="./images/bmsLogo.png" type="image/icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
@@ -13,32 +12,32 @@
   <title>Contact-BillMySchool</title>
 </head>
 
-<body >
+<body>
   <section class="top-nav" id="top-nav">
 
-    <ul class="nav justify-content-end" >
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Sign in</a>
-      </li>
-    </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <strong><a class="navbar-brand" href="" style="text-shadow: 1px 1px black; color:rgb(40, 21, 8);">Bill my $chool</a></strong>
+
+      <div class="topnav">
+        <div class=navbar-nav ml-auto id="myTopnav">
+
+
+          <span class="menu" class="nav-item">
+
+            <a href="index.php" class="nav-item" style="padding:10px 8px;color: #111;">Home</a>
+            <a href="contact.php" class="nav-item" style="padding:10px 8px;">Contact</a>
+            <a href="login.php" class="nav-item" style="padding:10px 8px; text-decoration:none;">Login/Sign-Up</a>
+            </a>
+          </span>
+    </nav>
   </section>
   <section class="top-container">
     <h1>CONTACT US</h1>
-    <p>Give us your Details, We will come to your Organization to give a live demo on billmyschool.com</p>
+    <h3>Give us your Details, We will come to your Organization to give a live demo on billmyschool.com</h3>
   </section>
   <section class="mid-container">
     <div class="card-view">
       <div class="card">
-
       </div>
       <div class="card">
 
