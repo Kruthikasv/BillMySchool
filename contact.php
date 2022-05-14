@@ -37,22 +37,22 @@
   </section>
 
   <section class="contact-form">
-        <form>
+        <form method="post" action="contact.php">
           <div class="form-group">
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name" name="username">
           </div>
           <div class="form-group">
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email" name="email">
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject" name="subject">
           </div>
           <div class="form-group">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Message"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Message" name="message"></textarea>
           </div>
-          <button type="submit" name="button">Send Message</button>
+          <input type="submit" name="submit" value="Send Message">
         </form>
-    </section>
+</section>
 
   <footer>
     <p>Copyright ©2021 All rights reserved | This template is made with by Rapsol Technologies Private Limited</p>
@@ -64,6 +64,26 @@
   </footer>
 
   <script src="./js/index.js" charset="utf-8"></script>
+  <?php
+if($_SERVER['REQUEST_METHOD'] === 'POST')
+{
+    $con = mysqli_connect("localhost","root","root","db_sams");
+    if(isset($_POST['submit'])){
+      $name= $_POST['username'];
+      $email = $_POST['email'];
+      $subject = $_POST['subject'];
+      $message = $_POST['message'];
+
+      $sql = "INSERT INTO comments(name,email,subject,message) values('$name', '$email', '$subject', '$message')";
+      if(!mysqli_query($con,$sql))
+      {
+        die('Error: ' . mysqli_error($con));
+      }
+      header("Location:contact.php");
+}
+mysqli_close($con);
+}
+?>
 </body>
 
 </html>

@@ -83,7 +83,7 @@
             <p class="card-text"></p>
           </div>
           <div class="card-footer">
-            <a href="signup_patient.php" class="btn btn-light btn-lg">Click here</a>
+            <a href="attendance/fee.php" class="btn btn-light btn-lg">Click here</a>
           </div>
         </div>
 
@@ -105,7 +105,7 @@
             <p class="card-text"></p>
           </div>
           <div class="card-footer ">
-            <a href="signup_hosp.php" class="btn btn-light btn-lg">Click here</a>
+            <a href="" class="btn btn-light btn-lg">Click here</a>
           </div>
         </div>
 
