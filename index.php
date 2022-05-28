@@ -101,11 +101,11 @@
         <div class="card text-center text-white bg-secondary cards">
           <img src="images\test.png" style="height: 50%;border-radius: 50%;" class="card-img-top" alt="image">
           <div class="card-body">
-            <h4 class="card-title"><strong>Exam Data Record</strong></h4>
+            <h4 class="card-title"><strong>Student Records</strong></h4>
             <p class="card-text"></p>
           </div>
           <div class="card-footer ">
-            <a href="" class="btn btn-light btn-lg">Click here</a>
+            <a href="attendance/student_rec.php" class="btn btn-light btn-lg">Click here</a>
           </div>
         </div>
 

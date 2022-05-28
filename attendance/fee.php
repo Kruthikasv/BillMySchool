@@ -23,7 +23,7 @@ $stu = new Student();
 
 		<div class="card-body" style="background-color:#6b3b0b">
 			<div class="card bg-light text-center mb-3">
-				<h4 class="m-0 py-3" style="background-color:bisque;"><strong>Date</strong>: <?php echo $cur_date; ?></h4>
+				<h4 class="m-0 py-3" style="background-color:bisque;"><strong>Date</strong>: <?php echo date("Y-m-d"); ?></h4>
 			</div>
 			<form action="" method="post">
 				<table class="table table-striped" style="background-color:bisque; font-weight:800">
@@ -45,14 +45,14 @@ $stu = new Student();
 								<td><?php echo $value['name']; ?></td>
 								<td><?php echo $value['roll']; ?></td>
 								<td>
-									<input type="button" name="pay_fee" value="Pay" class="btn btn-primary btn-small" onclick="window.open('./pay_fee');">
+									<input type="button" name="pay_fee" value="Pay" class="btn btn-primary btn-small" onclick="window.open('./pay_fee.php?name=<?=$value['name'];?>&roll=<?=$value['roll'];?>');">
 								</td>
 							</tr>
 					<?php }
 					} ?>
 
 					<tr>
-						<td colspan="4" class="text-center">
+						<td colspan="12" class="text-center">
 							<input type="submit" name="submit" class="btn btn-primary px-5" value="Submit">
 						</td>
 					</tr>
