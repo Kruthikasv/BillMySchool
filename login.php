@@ -137,7 +137,7 @@
       cursor: pointer;
       padding: 19px 16px;
       font-size: 22px;
-      width: 33.333%;
+      width: 50%;
       margin-top: 0px;
       font-weight: bold;
 
@@ -179,15 +179,15 @@
 
 
 
-  <button class="tablink" onclick="openPage('Pateint', this, '#6b3b0b')" id="defaultOpen">Admin</button>
-  <button class="tablink" onclick="openPage('Doctor', this, '#6b3b0b')">School</button>
-  <button class="tablink" onclick="openPage('Hospital', this, '#6b3b0b')">Student/ Parent</button>
+  <!-- <button class="tablink" onclick="openPage('Pateint', this, '#6b3b0b')" id="defaultOpen">Student</button> -->
+  <button class="tablink" onclick="openPage('Doctor', this, '#6b3b0b') "id="defaultOpen">School</button>
+  <button class="tablink" onclick="openPage('Hospital', this, '#6b3b0b')">Parent</button>
 
 
   <div id="Pateint" class="tabcontent">
     <div class="container">
       <form>
-        <h2 style="text-align:center">Admin Login</h2>
+        <h2 style="text-align:center">Student Login</h2>
         <div class="imgcontainer">
           <img src="images\login-headshot.png" alt="Avatar" class="avatar">
         </div>
@@ -222,7 +222,7 @@
   <div id="Hospital" class="tabcontent">
     <div class="container">
       <form>
-        <h2 style="text-align:center">Student/ Parent Login </h2>
+        <h2 style="text-align:center">Parent Login </h2>
         <div class="imgcontainer">
           <img src="images\login-headshot.png" alt="Avatar" class="avatar">
         </div>
