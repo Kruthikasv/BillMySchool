@@ -1,15 +1,8 @@
 <?php
-include "inc/header.php";
+include "inc/header_fee.php";
 include "classes/Student.php";
 $stu = new Student();
-?>
-<?php
-error_reporting(0);
-$cur_date = date('Y-m-d');
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-	$attend = $_POST['attend'];
-	$insertattend = $stu->insertAttendance($attend);
-}
+$roll = $_REQUEST['roll'];
 ?>
 <div class="container">
 	<?php
@@ -22,19 +15,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 			background-color: bisque;
 		}
 	</style>
-	<div class='alert alert-danger' style="display: none;"><strong>Error !</strong> Student Roll Missing !</div>
 	<div class="card" style="background-color:#6b3b0b;">
 		<div class="card-header">
 			<h2>
-				<a class="btn btn-success" href="add.php">Add Student</a>
-				<a class="btn btn-info float-right" href="date_view.php">View All</a>
 				<a class="btn btn-info float-right" href="../index.php" style="margin-right:10px">Back</a>
 			</h2>
 		</div>
 
 		<div class="card-body" style="background-color:#6b3b0b">
 			<div class="card bg-light text-center mb-3">
-				<h4 class="m-0 py-3" style="background-color:bisque;"><strong>Date</strong>: <?php echo $cur_date; ?></h4>
+				<h4 class="m-0 py-3" style="background-color:bisque;"><strong>Date</strong>: <?php echo date("Y-m-d"); ?></h4>
 			</div>
 			<form action="" method="post">
 				<table class="table table-striped" style="background-color:bisque; font-weight:800">
@@ -42,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 						<th width="25%">S/L</th>
 						<th width="25%">Student Name</th>
 						<th width="25%">Student Roll</th>
-						<th width="25%">Attendance</th>
+						<th width="25%">View Report</th>
 					</tr>
 					<?php
 					$getstudent = $stu->getStudents();
@@ -50,21 +40,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 						$i = 0;
 						while ($value = $getstudent->fetch_assoc()) {
 							$i++;
-					?>
+					if ($roll > 0 && $value['roll'] == $roll) {?>
 							<tr>
 								<td><?php echo $i; ?></td>
 								<td><?php echo $value['name']; ?></td>
 								<td><?php echo $value['roll']; ?></td>
 								<td>
-									<input type="radio" name="attend[<?php echo $value['roll']; ?>]" value="present">P
-									<input type="radio" name="attend[<?php echo $value['roll']; ?>]" value="absent">A
+									<input type="button" name="record" value="View" class="btn btn-primary btn-small" onclick="window.open('');">
 								</td>
 							</tr>
-					<?php }
+					<?php }}
 					} ?>
 
 					<tr>
-						<td colspan="4" class="text-center">
+						<td colspan="12" class="text-center">
 							<input type="submit" name="submit" class="btn btn-primary px-5" value="Submit">
 						</td>
 					</tr>

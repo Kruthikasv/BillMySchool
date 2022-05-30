@@ -56,7 +56,7 @@ body {
   margin: auto;
 }
 
-.contact-form button {
+.contact-form input[type=submit] {
   padding: 2%;
   border-radius: 50px;
   border: 1px solid var(--lightGreen);
@@ -65,8 +65,9 @@ body {
   width: 200px;
 }
 
-.contact-form button:hover {
+.contact-form input[type=submit]:hover {
   color: #000069;
+  background: #c3c6a0;
   border: 1px solid #c3c6a0;
 }
 
