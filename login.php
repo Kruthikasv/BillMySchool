@@ -204,14 +204,14 @@
   <div id="Doctor" class="tabcontent">
     <div class="container">
       <!-- <form action="alert(" You have signed in successfully!");" method="post"> -->
-      <form>
+      <form action="validate_school.php" method="post">
         <h2 style="text-align:center">School Login </h2>
         <div class="imgcontainer">
           <img src="images\login-headshot.png" alt="Avatar" class="avatar">
         </div>
         <input type="text" name="username" placeholder="Email id"><br><br>
         <input type="password" name="pwd" placeholder="Password"><br><br>
-        <button type="submit" name="submit" class="submit" onclick="alert('You have signed in successfully!')">Submit</button>
+        <button type="submit" name="submit" class="submit">Submit</button>
 
         <br><br>
         <div class="signup"> Not a registered user? <a href="signup_school.php">Click here</a> to signup.<br><br>
