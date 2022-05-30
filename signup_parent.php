@@ -129,8 +129,8 @@
         <label style="color:white;">Ward's class</label>
         <input type="number" name="studentClass" style="background-color: bisque;" placeholder="Type in which standard your ward is studying in" required>
         <label style="color:white;">Ward's Roll No.</label>
-        <input type="number" name="roll" style="background-color: bisque;" placeholder="Type in which standard your ward is studying in" required>
-        <label style="color:white;">E-mail Id</label>
+        <input type="number" name="roll" style="background-color: bisque;" placeholder="Type in your ward's roll number" required>
+        <label style="color:white;">Username</label>
         <input type="text" name="username" placeholder="Type your email id here" required>
         <label style="color:white;">Contact Number</label>
         <input type="tel" name="contact_no" placeholder="Enter your contact number" required>

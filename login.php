@@ -221,14 +221,14 @@
   </div>
   <div id="Hospital" class="tabcontent">
     <div class="container">
-      <form>
+      <form action="validate_parent.php" method="post">
         <h2 style="text-align:center">Parent Login </h2>
         <div class="imgcontainer">
           <img src="images\login-headshot.png" alt="Avatar" class="avatar">
         </div>
         <input type="text" name="username" placeholder="Email id"><br><br>
         <input type="password" name="pwd" placeholder="Password"><br><br>
-        <button type="submit" name="submit" class="submit" onclick="alert(' You have signed in successfully!')">Submit</button>
+        <button type="submit" name="submit" class="submit" >Submit</button>
 
         <br><br>
         <div class="signup"> Not a registered user? <a href="signup_parent.php">Click here</a> to signup.<br><br>
