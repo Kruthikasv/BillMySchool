@@ -5,7 +5,7 @@ $stu = new Student();
 ?>
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-	$con = mysqli_connect("localhost", "root", "root", "db_sams");
+	$con = mysqli_connect("localhost", "root", "", "db_sams");
 	if (isset($_POST['submit'])) {
 		$name = $_POST['name'];
 		$roll = $_POST['roll'];
