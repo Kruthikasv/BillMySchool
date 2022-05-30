@@ -1,5 +1,5 @@
 <?php
-include "inc/header_rec.php";
+include "inc/header_fee.php";
 include "classes/Student.php";
 $stu = new Student();
 $roll = $_REQUEST['roll'];

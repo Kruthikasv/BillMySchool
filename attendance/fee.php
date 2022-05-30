@@ -51,11 +51,11 @@ $stu = new Student();
 					<?php }
 					} ?>
 
-					<tr>
+					<!-- <tr>
 						<td colspan="12" class="text-center">
 							<input type="submit" name="submit" class="btn btn-primary px-5" value="Submit">
 						</td>
-					</tr>
+					</tr> -->
 				</table>
 			</form>
 		</div>
